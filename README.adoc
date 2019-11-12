@@ -1,0 +1,28 @@
+= report-template-adoc
+
+College paper template powered by https://github.com/asciidoctor/asciidoctor-pdf[asciidoctor-pdf]
+
+== Prerequisites
+* ruby
+* rubygems
+
+=== Required gems
+* asciidoctor-pdf
+* asciidoctor-pdf-cjk
+* asciidoctor-pdf-cjk-kai_gen_gothic
+* asciidoctor-mathematical(optional - required for rendering mathematical symbols / formulas)
+* pygments.rb(optional -required for source highlighting)
+
+== Set up
+[source, shell]
+----
+$ [sudo] gem install asciidoctor-pdf asciidoctor-pdj-cjk-kai_gen_gothic asciidoctor-mathematical pygments.rb
+$ [sudo] asciidoctor-pdf-cjk-kai_gen_gothic-install
+----
+
+== Usage
+. Edit `report.adoc` and put assets in `data/`
+. Run `./build.sh`
+
+== License
+See `LICENSE`
