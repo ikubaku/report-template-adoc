@@ -1,0 +1,40 @@
+// report-template-adoc
+// Distributed under CC0 license(Public Domain)
+
+// comment it to prevent asciidoctor-pdf from generating the cover page
+:title-page:
+
+:toc:
+:sectnums:
+
+// Put figures in `data/img` (asciidoctor-mathematical also generates images here)
+:imagesdir: data/img
+
+:source-highlighter: pygments
+:listing-caption: Code
+
+= Cover Title
+Your Name
+
+== Section 1
+Hello, world!
+//Inline math: latexmath:[\sqrt{x}]
+
+=== Subsection 1
+//Block math
+//[latexmath]
+//++++
+// Insert your nice formulas here
+// See documents of asciidoctor-mathematical & mtex2MML for further details(e.g. supported TeX commands / environments, allowed syntax)
+//++++
+
+ABCDEFG
+
+== Section 2
+Lorem ipsum<<foo>>.
+
+日本語もOK
+
+[bibliography]
+== Bibliography
+- [[[foo,1]]] bar
