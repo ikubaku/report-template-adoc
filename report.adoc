@@ -1,5 +1,5 @@
 // report-template-adoc
-// Distributed under CC0 license(Public Domain)
+// Distributed under CC0 license
 
 // comment it to prevent asciidoctor-pdf from generating the cover page
 :title-page:
