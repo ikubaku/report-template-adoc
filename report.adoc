@@ -1,40 +1,31 @@
 // report-template-adoc
-// Distributed under CC0 license
+// Distributed under the CC0 license
 
-// comment it to prevent asciidoctor-pdf from generating the cover page
+// Comment it to prevent asciidoctor-pdf from generating the cover page
 :title-page:
 
+// Render table of contents & section numbers
 :toc:
 :sectnums:
+
+// Uncomment to customize the Table of Contents title
+//:toc-title: 目次
 
 // Put figures in `data/img` (asciidoctor-mathematical also generates images here)
 :imagesdir: data/img
 
+// Source hightlghting configuration
 :source-highlighter: pygments
 :listing-caption: Code
+
+// Configure cross-reference
+:xrefstyle: short
 
 = Cover Title
 Your Name
 
 == Section 1
 Hello, world!
-//Inline math: latexmath:[\sqrt{x}]
 
-=== Subsection 1
-//Block math
-//[latexmath]
-//++++
-// Insert your nice formulas here
-// See documents of asciidoctor-mathematical & mtex2MML for further details(e.g. supported TeX commands / environments, allowed syntax)
-//++++
-
-ABCDEFG
-
-== Section 2
-Lorem ipsum<<foo>>.
-
-日本語もOK
-
-[bibliography]
-== Bibliography
-- [[[foo,1]]] bar
+//[bibliography]
+//== Bibliography
