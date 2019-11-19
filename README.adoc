@@ -27,4 +27,4 @@ $ [sudo] asciidoctor-pdf-cjk-kai_gen_gothic-install
 == License
 The example document source codes and resources(they are under `examples/` directory) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License. The template itself is licensed under the CC0 1.0 Universal. You are not required to write credits when using this template to generate your documents.
 
-For further information, see:./LICENSE(LICENSE)
+For further information, see: link:./LICENSE(LICENSE)
