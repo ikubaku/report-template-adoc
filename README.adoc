@@ -28,4 +28,4 @@ $ [sudo] asciidoctor-pdf-cjk-kai_gen_gothic-install
 See: https://github.com/ikubaku/report-template-adoc-example
 
 == License
-See: link:./LICENSE(LICENSE)
+See: link:./LICENSE[LICENSE]
